@@ -37,4 +37,19 @@ for cle in plateau:
     if plateau[cle][0] == plateau[cle][1] == plateau[cle][2] and plateau[cle][0] != None:
         return True
 
+
+def is_filled(plateau:dict) -> bool:
+    """ Fonction qui permet de voir si la grille est pleine
+
+    Args:
+        plateau (dict): un plateau de jeu
+
+    Returns:
+        bool: True si la grille est pleine. False  sinon
+    """
     
+    for cle in plateau:
+        for case in plateau[cle]:
+            if case == None:
+                return False
+    return True
