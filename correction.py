@@ -123,31 +123,3 @@ while not termine:
             joueur = "O"
         else:
             joueur = "X"
-
-
-
-
-def is_filled(plateau:dict) -> bool:
-    """ Fonction qui permet de voir si la grille est pleine
-
-    Args:
-        plateau (dict): un plateau de jeu
-
-    Returns:
-        bool: True si la grille est pleine. False  sinon
-    """
-    
-    for cle in plateau:
-        for case in plateau[cle]:
-            if case == None:
-                return False
-    return True
-
-ended = False
-joueur = "X"
-
-while not ended:
-    afficher_grille(plateau)
-    jouer_coup = input("Rentrez un coup")
-    while not
-        jouer_coup = input("Rentrez un coup")
