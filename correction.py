@@ -53,3 +53,12 @@ def is_filled(plateau:dict) -> bool:
             if case == None:
                 return False
     return True
+
+ended = False
+joueur = "X"
+
+while not ended:
+    afficher_grille(plateau)
+    jouer_coup = input("Rentrez un coup")
+    while not
+        jouer_coup = input("Rentrez un coup")
