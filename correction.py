@@ -32,5 +32,9 @@ def jouer_coup(plateau:dict, joueur:str, coup:str) -> None:
     plateau[coup[0]][int(coup[1])] = joueur == None:
     return True
 
+#Verification des lignes
+for cle in plateau:
+    if plateau[cle][0] == plateau[cle][1] == plateau[cle][2] and plateau[cle][0] != None:
+        return True
 
     
