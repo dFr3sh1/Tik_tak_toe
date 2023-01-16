@@ -29,4 +29,8 @@ def jouer_coup(plateau:dict, joueur:str, coup:str) -> None:
         joueur (str): "O" ou "X"
         coup (str): Coordonnées de la forme "A1"
     """
-    plateau[coup[0]][int(coup[1])] = joueur
+    plateau[coup[0]][int(coup[1])] = joueur == None:
+    return True
+
+
+    
